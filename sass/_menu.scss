@@ -24,6 +24,7 @@ $fonctionnement-color: #888686;
 /*GENERAL*/
 body {
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .entrees,.plats,.desserts{
@@ -184,7 +185,6 @@ body {
             text-overflow: ellipsis;
             overflow: hidden;
             white-space: nowrap;
-            width: 100%;
         }
     }
     .bordure-check {

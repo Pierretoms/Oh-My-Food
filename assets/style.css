@@ -3,6 +3,7 @@
 /*GENERAL*/
 body {
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .entrees, .plats, .desserts {
@@ -160,7 +161,6 @@ body {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  width: 100%;
 }
 .menu-cards .bordure-check {
   height: 100%;
@@ -318,6 +318,10 @@ body {
 /*font-family: "Roboto", sans-serif;*/
 /*MIXINS*/
 /*GENERAL*/
+body {
+  overflow-x: hidden;
+}
+
 .loader {
   position: fixed;
   top: 0;

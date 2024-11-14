@@ -27,6 +27,10 @@ $fonctionnement-color: #888686;
 }
 
 /*GENERAL*/
+body {
+    overflow-x: hidden;
+}
+
 .loader{
     position: fixed;
     top: 0;
